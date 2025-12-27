@@ -1,0 +1,28 @@
+<!-- Q14: Form validation using JS events -->
+<!-- ===================================================== -->
+  <!-- Ashok sahu , ERp 10316-->
+<!DOCTYPE html>
+<html>
+<body>
+
+<form onsubmit="return check()">
+<input type="text" id="name" oninput="msg()">
+<input type="submit">
+</form>
+
+<script>
+function msg(){
+    alert("Typing...");
+}
+function check(){
+    if(document.getElementById("name").value==""){
+        alert("Enter name");
+        return false;
+    }
+    alert("Form Submitted");
+    return true;
+}
+</script>
+
+</body>
+</html>

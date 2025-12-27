@@ -1,0 +1,23 @@
+<!-- Q16: Show / Hide elements and toggle class -->
+<!-- ===================================================== -->
+  <!-- Ashok sahu, ERp 10316-->
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.hide{ display:none; }
+</style>
+</head>
+<body>
+
+<p id="text">Toggle Me</p>
+<button onclick="toggle()">Toggle</button>
+
+<script>
+function toggle(){
+    document.getElementById("text").classList.toggle("hide");
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!-- Q12: Conditional statements and loops -->
+<!-- ===================================================== -->
+  <!-- Ashok sahu , ERp 10316-->
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+var n = 5;
+
+if(n > 0){
+    document.write("Positive<br>");
+}
+
+for(var i=1;i<=3;i++){
+    document.write(i+" ");
+}
+
+var j=1;
+while(j<=2){
+    document.write("<br>"+j);
+    j++;
+}
+
+var k=1;
+do{
+    document.write("<br>"+k);
+    k++;
+}while(k<=1);
+</script>
+
+</body>
+</html>

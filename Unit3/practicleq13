@@ -1,0 +1,19 @@
+<!-- Q13: User-defined functions + var, let, const -->
+<!-- ===================================================== -->
+  <!-- Ashok sahu , ERp 10316-->
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+function demo(){
+    var a = 10;
+    let b = 20;
+    const c = 30;
+    document.write(a + b + c);
+}
+demo();
+</script>
+
+</body>
+</html>

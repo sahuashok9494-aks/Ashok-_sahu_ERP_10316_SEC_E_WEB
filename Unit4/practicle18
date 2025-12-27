@@ -1,0 +1,27 @@
+<!-- Q18: Create and manipulate elements -->
+<!-- ===================================================== -->
+  <!-- Ashok sahu, ERp 10316-->
+<!DOCTYPE html>
+<html>
+<body>
+
+<div id="box"></div>
+<button onclick="add()">Add</button>
+<button onclick="remove()">Remove</button>
+
+<script>
+function add(){
+    var p = document.createElement("p");
+    p.innerHTML = "New Element";
+    document.getElementById("box").appendChild(p);
+}
+function remove(){
+    var box = document.getElementById("box");
+    if(box.firstChild){
+        box.removeChild(box.firstChild);
+    }
+}
+</script>
+
+</body>
+</html>

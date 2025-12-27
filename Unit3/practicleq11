@@ -1,0 +1,23 @@
+<!-- Q11: JavaScript arithmetic operations using user input -->
+<!-- ===================================================== -->
+  <!-- Ashok sahu, ERp 10316-->
+<!DOCTYPE html>
+<html>
+<body>
+
+<input id="a" type="number">
+<input id="b" type="number">
+<button onclick="calc()">Add</button>
+
+<p id="res"></p>
+
+<script>
+function calc(){
+    var x = Number(document.getElementById("a").value);
+    var y = Number(document.getElementById("b").value);
+    document.getElementById("res").innerHTML = x + y;
+}
+</script>
+
+</body>
+</html>

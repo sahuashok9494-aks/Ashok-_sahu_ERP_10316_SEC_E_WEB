@@ -1,0 +1,19 @@
+<!-- Q15: DOM manipulation -->
+<!-- ===================================================== -->
+  <!-- Ashok sahu , ERp 10316-->
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="p1">Hello</p>
+<button onclick="change()">Change</button>
+
+<script>
+function change(){
+    document.getElementById("p1").innerHTML = "Changed";
+    document.querySelector("#p1").style.color = "red";
+}
+</script>
+
+</body>
+</html>

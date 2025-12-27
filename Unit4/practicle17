@@ -1,0 +1,19 @@
+<!-- Q17: Event listeners -->
+<!-- ===================================================== -->
+  <!-- Ashok sahu, ERp 10316-->
+<!DOCTYPE html>
+<html>
+<body>
+
+<button id="btn">Click Me</button>
+
+<script>
+function sayHi(){
+    alert("Hello");
+}
+var b = document.getElementById("btn");
+b.addEventListener("click", sayHi);
+</script>
+
+</body>
+</html>
